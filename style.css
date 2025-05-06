@@ -1,0 +1,201 @@
+html, body {
+    height: 99%;
+    padding: 0;
+    min-width: 1480px;
+}
+
+/* backgroung colours */
+#background{
+    min-width: 1480px;
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(15 , auto);
+    width: 99%;
+    height: 98vh;
+    background-color: rgba(0, 0, 0, 0.125);
+}
+
+.dg{
+    z-index: -1;
+    height: 100%;
+    background-color: #599d46;
+}
+
+.lg{
+    z-index: -1;
+    height: 100%;
+    background-color: #74ad42;
+}
+
+#border{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+/* Boxes */
+.main-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 88%;
+    width: 92%;
+    border: 5px solid white;
+}
+
+.box2{
+    position: absolute;
+    height: 60%;
+    width: 17%;
+    border: 5px solid white;
+}
+
+.box3{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    height: 50%;
+    width: 30%;
+    border: 5px solid white;
+}
+
+.box4{
+    height: 30%;
+    width: 20%;
+    border: 5px solid white;
+}
+
+#left2{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    left: 0%;
+    border-left: 0;
+}
+
+#left3{
+    position: relative;
+    left: -1.8%;
+    border-left: 0;
+}
+
+#left4{
+    position: absolute;
+    left: -26.1%;
+    border-right: 0;
+}
+
+#right2{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    right: 0%;
+    border-right: 0;
+}
+
+#right3{
+    position: relative;
+    right: -69%;
+    border-right: 0;
+}
+
+#right4{
+    position: absolute;
+    right: -28%;
+    border-left: 0;
+}
+
+/* Circles */
+#circle{
+    position: absolute;
+    height: 25%;
+    width: 13%;
+    border: 5px solid white;
+    border-radius: 50%;
+}
+
+.side-circle{
+    position: absolute;
+    height: 100%;
+    width: 350%;
+    border: 5px solid transparent;
+    border-radius: 50%;
+}
+
+#circle2{
+    position: absolute;
+    border-right: 5px solid white;
+    left: 33%;
+}
+
+#circle3{
+    position: absolute;
+    border-left: 5px solid white;
+    right: 29.5%;
+}
+
+.corner-circle{
+    position: absolute;
+    height: 4%;
+    width: 2%;
+    border: 5px solid transparent;
+    border-radius: 50%;
+}
+
+#cc1{
+    left: 98.7%;
+    bottom: 97.4%;
+    border-bottom: 5px solid white;
+    transform: rotate(45deg);
+}
+
+#cc2{
+    left: 98.7%;
+    top: 97.4%;
+    border-top: 5px solid white;
+    transform: rotate(315deg);
+}
+
+#cc3{
+    right: 98.7%;
+    bottom: 97.4%;
+    border-bottom: 5px solid white;
+    transform: rotate(315deg);
+}
+
+#cc4{
+    right: 98.7%;
+    top: 97.4%;
+    border-bottom: 5px solid white;
+    transform: rotate(225deg);
+}
+
+/* Middle line */
+#line{
+    position: absolute;
+    height: 100%;
+    width: 5px;
+    background-color: white;
+}
+
+/* Dots */
+#dot,#dotleft,#dotright{
+    height: 2%;
+    width: 1%;
+    background-color: white;
+    border-radius: 50%;
+}
+
+#dotleft{
+    position: absolute;
+    left: 10%;
+}
+
+#dotright{
+    position: absolute;
+    right: 10%
+}
